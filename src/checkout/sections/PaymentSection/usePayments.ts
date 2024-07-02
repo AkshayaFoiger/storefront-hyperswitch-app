@@ -12,6 +12,7 @@ export const usePayments = () => {
 	const paymentStatus = usePaymentStatus(checkout);
 
 	const { fetching, availablePaymentGateways } = usePaymentGatewaysInitialize();
+	console.log("===============> availablePaymentGateways", availablePaymentGateways);
 
 	const { onCheckoutComplete, completingCheckout } = useCheckoutComplete();
 

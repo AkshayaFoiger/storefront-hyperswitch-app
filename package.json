@@ -15,13 +15,17 @@
 		"test": "playwright test"
 	},
 	"dependencies": {
+		"@juspay-tech/hyper-js": "1.6.0",
+		"@juspay-tech/react-hyper-js": "1.0.2",
 		"@adyen/adyen-web": "5.53.3",
 		"@adyen/api-library": "15.0.0-beta",
 		"@headlessui/react": "1.7.18",
 		"@saleor/auth-sdk": "1.0.1",
+		"@saleor/macaw-ui": "0.8.0-pre.132",
 		"@stripe/react-stripe-js": "2.6.2",
 		"@stripe/stripe-js": "2.2.0",
 		"@tailwindcss/container-queries": "0.1.1",
+		"concurrently": "^8.2.0",
 		"clsx": "2.1.0",
 		"editorjs-html": "3.4.3",
 		"formik": "2.4.5",

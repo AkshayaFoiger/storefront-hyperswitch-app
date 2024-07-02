@@ -21,6 +21,7 @@ export const useCheckoutComplete = () => {
 					const order = data.order;
 
 					if (order) {
+						console.log("dscjsdkjhcksd: ", order.id);
 						const newUrl = replaceUrl({
 							query: {
 								order: order.id,
@@ -34,5 +35,6 @@ export const useCheckoutComplete = () => {
 			[checkoutComplete, checkoutId],
 		),
 	);
+	console.log("scsdkjbvksbhvbsfkdvsfdv, ", checkoutComplete);
 	return { completingCheckout: fetching, onCheckoutComplete };
 };
